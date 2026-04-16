@@ -5,8 +5,6 @@ Before we get started, we will need to clone a GitHub repository that contains t
 
 conda install -c anaconda git
 
-git clone https://github.com/ThaWeatherman/scrapers.git
-
 1. Importing Libraries and Loading the Data
 
 After the .csv file 'games.csv' has been copied to the current directory, we can import the data as a Pandas DataFrame. As a DataFrame, we will be able to easily explore the type, amount, and distribution of data.  Furthermore, using a correlation matrix, we can explore the relationships between parameters.  This is an important step in determining the type of machine learning algorithm to utilize. 
